@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel:project xmlns:excel="http://maven.apache.org/POM/4.0.0"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <excel:modelVersion>4.0.0</excel:modelVersion>
+
+    <excel:groupId>com.example.Addition</excel:groupId>
+    <excel:artifactId>AdditionOfNumbers</excel:artifactId>
+    <excel:version>1.0-SNAPSHOT</excel:version>
+
+
+    <excel:dependency>
+        <excel:groupId>org.apache.poi</excel:groupId>
+        <excel:artifactId>poi-ooxml</excel:artifactId>
+        <excel:version>3.8-beta4</excel:version>
+    </excel:dependency>
+
+
+</excel:project>
